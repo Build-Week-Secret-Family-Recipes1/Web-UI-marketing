@@ -1,0 +1,540 @@
+/*===== COLOR ASSIGNMENTS =====*/
+/*===== COLORS =====*/
+/*===== MEDIA QUERIES =====*/
+/*===== OTHER =====*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+  color: #4a4a4a;
+}
+@media (min-width: 800px) {
+  html {
+    color: #000000;
+  }
+}
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 2.8rem;
+}
+h2 {
+  font-size: 2.4rem;
+}
+p {
+  font-size: 1.8rem;
+}
+li {
+  font-size: 2rem;
+}
+sup {
+  font-size: medium;
+  vertical-align: super;
+}
+sub {
+  font-size: medium;
+  vertical-align: sub;
+}
+em {
+  font-style: italic;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.8rem 4rem 0 4rem;
+}
+header nav a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+header nav img {
+  width: 100px;
+}
+@media (min-width: 1000px) {
+  header nav img {
+    margin-top: 5%;
+  }
+}
+header nav .pages {
+  font-size: 1.8rem;
+}
+header nav .about-link {
+  margin-right: 40px;
+}
+/*========== HEADER ==========*/
+#homepage-header {
+  margin: 3rem 3rem;
+}
+@media (min-width: 800px) {
+  #homepage-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin: 3vh 7vw 3vh 0;
+  }
+}
+#homepage-header #sign-up {
+  text-align: center;
+}
+@media (min-width: 800px) {
+    #homepage-header #sign-up {
+    margin-left: 4.5rem;
+  }
+}
+@media (min-width: 1000px) {
+    #homepage-header #sign-up {
+    width: 51vw;
+  }
+}
+#homepage-header #sign-up h1 {
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+}
+@media (min-width: 800px) {
+    #homepage-header #sign-up h1 {
+    text-align: left;
+  }
+}
+@media (min-width: 1000px) {
+  #homepage-header #sign-up h1 {
+    line-height: 1.2;
+    font-size: 3rem;
+    padding-bottom: 3%;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+#homepage-header button {
+  border: none;
+  border-radius: 5px;
+  background-color: #6AD856;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 33px auto 23px auto;
+  padding: 2px 30px;
+  font-size: 1.8rem;
+}
+#homepage-header button:hover {
+  background-color: #FE9A76;
+}
+@media (min-width: 800px) {
+  #homepage-header button {
+    border: none;
+    border-radius: 5px;
+    background-color: #6AD856;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  #homepage-header button:hover {
+    background-color: #FE9A76;
+  }
+}
+#homepage-header button .desktopButtonText {
+  display: none;
+}
+@media (min-width: 1000px) {
+  #homepage-header button .desktopButtonText {
+    display: inline;
+  }
+}
+@media (min-width: 1000px) {
+  #homepage-header button {
+    margin-left: 60%;
+    padding: 2% 6%;
+    font-size: 1.6rem;
+  }
+}
+#homepage-header p {
+  display: none;
+}
+@media (min-width: 1000px) {
+  #homepage-header p em {
+    font-style: italic;
+  }
+}
+@media (min-width: 800px) {
+  #homepage-header p {
+    display: block;
+    text-align: left;
+    font-size: 2.5rem;
+    margin-top: 2%;
+  }
+}
+@media (min-width: 1000px) {
+  #homepage-header p {
+    text-align: left;
+  }
+}
+#homepage-header img {
+  display: none;
+}
+@media (min-width: 800px) {
+  #homepage-header img {
+    display: block;
+    width: 30vw;
+  }
+}
+/*========== TOP CONTENT ==========*/
+@media (min-width: 1000px) {
+  #features {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    margin-top: 100px;
+  }
+}
+#features img {
+  width: 85vw;
+  padding: 4%;
+  margin-left: 3rem;
+}
+@media (min-width: 1000px) {
+  #features img {
+    width: 52vw;
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 1000px) {
+  #features .features-div {
+    width: 35vw;
+    margin-right: 100px;
+    margin-top: 30px;
+  }
+}
+#features .features-div div {
+  margin: 4rem 3rem 4rem 3rem;
+}
+@media (min-width: 1000px) {
+  #features .features-div div h2 {
+    font-weight: 400;
+  }
+}
+#features .features-div div p {
+  margin-top: 15px;
+  margin-right: 10px;
+  line-height: 1.2;
+}
+@media (min-width: 1000px) {
+  #features .features-div div p {
+    font: 1rem;
+  }
+}
+/*========== BOTTOM CONTENT ==========*/
+#bottom-content {
+  margin-top: 80px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  padding: 0 8.5% 0 8.5%;
+}
+#bottom-content h2 {
+  font-size: 2.7rem;
+  font-weight: bold;
+  line-height: 1.3;
+}
+#bottom-content button {
+  border: none;
+  border-radius: 5px;
+  background-color: #6AD856;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-top: 25px;
+  padding: 5px 30px;
+}
+#bottom-content button:hover {
+  background-color: #FE9A76;
+}
+.homepage {
+  margin: 0;
+}
+main .aboutFR {
+  margin-bottom: 15vh;
+}
+main .aboutFR h1 {
+  margin: 12% 0 0 0;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 1000;
+}
+main .aboutFR p {
+  font-size: 2.3rem;
+  margin-top: 6%;
+  margin-left: 4%;
+}
+@media (min-width: 800px) {
+  main .aboutFR p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+main .aboutFR p strong {
+  font-weight: 600;
+}
+main .meetUs {
+  margin-left: 5%;
+  width: 90%;
+  text-align: center;
+}
+@media (min-width: 800px) {
+  main .meetUs {
+    text-align: left;
+  }
+}
+main .meetUs h2 {
+  font-weight: 900;
+  font-size: 2.6rem;
+}
+main .meetUs h3 {
+  font-weight: 200;
+  font-size: 2.4rem;
+  margin: 4vh 0 3vh 0;
+}
+main .meetUs .teams {
+  width: 85%;
+  margin: 0 auto;
+}
+@media (min-width: 800px) {
+  main .meetUs .teams {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+}
+@media (min-width: 1000px) {
+  main .meetUs .teams {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+}
+main .meetUs .teams .teamMember {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 4rem 2rem 4rem 2rem;
+  padding: 4rem;
+}
+@media (min-width: 800px) {
+  main .meetUs .teams .teamMember {
+    padding: 4rem 6rem;
+  }
+}
+main .meetUs .teams .teamMember img {
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+}
+main .meetUs .teams .teamMember h3 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+}
+main .meetUs .teams .teamMember ul {
+  margin-bottom: 30px;
+  text-align: center;
+}
+main .meetUs .teams .teamMember ul li {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+@media (min-width: 800px) {
+  main .meetUs .teams .teamMember ul li {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1000px) {
+  main .meetUs .teams .teamMember ul li {
+    font-size: 1.4rem;
+  }
+}
+main .meetUs .teams .teamMember ul li a {
+  text-decoration: none;
+}
+.contactUs {
+  text-align: center;
+  margin-top: 8rem;
+}
+.contactUs h2 {
+  font-weight: 700;
+  text-align: center;
+}
+.contactUs button {
+  border: none;
+  border-radius: 5px;
+  background-color: #6AD856;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 5% 0 1% 0;
+  text-align: center;
+  padding: 2% 8%;
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.contactUs button:hover {
+  background-color: #FE9A76;
+}
+@media (min-width: 800px) {
+  .contactUs button {
+    text-align: left;
+    margin: 3% 0 3% 0;
+    padding: 1% 2%;
+  }
+}
+@media (min-width: 1000px) {
+  .contactUs button {
+    padding: 1% 4%;
+    margin-bottom: 2%;
+  }
+}
+footer {
+  margin-top: 100px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+footer p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.4rem;
+}
+footer p a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
