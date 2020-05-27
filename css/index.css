@@ -475,7 +475,7 @@ main .meetUs .teams .teamMember ul {
 }
 main .meetUs .teams .teamMember ul li {
   font-size: 1.5rem;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 @media (min-width: 800px) {
   main .meetUs .teams .teamMember ul li {
