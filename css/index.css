@@ -461,6 +461,8 @@ main .meetUs .teams .teamMember img {
   border-radius: 10%;
   display: block;
   margin: 0 auto;
+  width: 100%;
+  height: auto;
 }
 main .meetUs .teams .teamMember h3 {
   font-weight: bold;
