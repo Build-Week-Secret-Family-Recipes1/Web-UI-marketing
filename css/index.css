@@ -212,12 +212,12 @@ header nav .about-link {
   text-align: center;
 }
 @media (min-width: 800px) {
-    #homepage-header #sign-up {
+  #homepage-header #sign-up {
     margin-left: 4.5rem;
   }
 }
 @media (min-width: 1000px) {
-    #homepage-header #sign-up {
+  #homepage-header #sign-up {
     width: 51vw;
   }
 }
@@ -227,7 +227,7 @@ header nav .about-link {
   text-align: center;
 }
 @media (min-width: 800px) {
-    #homepage-header #sign-up h1 {
+  #homepage-header #sign-up h1 {
     text-align: left;
   }
 }
@@ -458,7 +458,7 @@ main .meetUs .teams .teamMember {
   }
 }
 main .meetUs .teams .teamMember img {
-  border-radius: 100%;
+  border-radius: 10%;
   display: block;
   margin: 0 auto;
 }
