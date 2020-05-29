@@ -427,7 +427,7 @@ header nav .about-link {
 }
 @media (min-width: 300px) {
   .testimonial-block .testamentPic {
-    bottom: 1rem;
+    bottom: 0rem;
     width: 10rem;
   }
 }
