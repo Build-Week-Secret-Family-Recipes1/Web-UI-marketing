@@ -1,2 +1,2 @@
 # Web-UI-marketing
-[![Netlify Status](https://api.netlify.com/api/v1/badges/14f95e97-1b0a-4399-b427-3a749a583b7d/deploy-status)](https://app.netlify.com/sites/secretfamily-recipes/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9ee158eb-61bf-46fa-9052-b5b531a537f3/deploy-status)](https://app.netlify.com/sites/secretfamilyrecipe/deploys)
