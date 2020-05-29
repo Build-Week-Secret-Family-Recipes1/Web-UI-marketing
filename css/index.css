@@ -356,6 +356,77 @@ header nav .about-link {
     font: 1rem;
   }
 }
+/*========== TESTIMONIALS ==========*/
+@media (min-width: 800px) {
+  .carouselCards #carouselTestimonies {
+    display: none;
+  }
+}
+.carouselCards #carouselTestimonies .carousel-indicators li {
+  /*====OVERWRITE STANDARD INDICATOR STYLE====*/
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 1px solid gray;
+  margin-bottom: 15px;
+}
+.testimonial-block {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  margin: 45px 12% 0 12%;
+  font-family: "Nunito", sans-serif;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  background: #ffffff;
+  padding: 5% 40px 8% 40px;
+}
+/*========== Testaments ==========*/
+.desktopTestimonials {
+  display: none;
+}
+@media (min-width: 800px) {
+  .desktopTestimonials {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-flow: row nowrap;
+  }
+}
+@media (min-width: 1000px) {
+  .desktopTestimonials {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 10rem 0 10rem 0;
+  }
+}
+.testimonial-block {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin: 10%;
+  padding: 3%;
+}
+@media (min-width: 800px) {
+  .testimonial-block {
+    width: 35%;
+    height: 45%;
+    margin: 2.5%;
+  }
+}
+.testimonial-block .testamentPic {
+  position: relative;
+  bottom: 4rem;
+  width: 10rem;
+}
+.testimonial-block h2 {
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+.testimonial-block p {
+  margin: 0 3rem 3rem 3rem;
+  text-align: left;
+}
 /*========== BOTTOM CONTENT ==========*/
 #bottom-content {
   margin-top: 80px;
